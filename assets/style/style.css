@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BMWTypeNext Pro Regular, Arial, Helvetica, Roboto, sans-serif;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1140px;
+
+}
+
+.header {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 4, 1) 100%);
+    background-size: 1300%;
+    display: block;
+    height: 500px;
+    margin-bottom: 300px;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.nav__logo {
+    height: 52px;
+    width: 52px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.nav__list-link {
+    display: block;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 30px;
+    font-weight: 600;
+}
+
+.nav__list-link:hover {
+    background: blue;
+    transition: .5s;
+}
+
+.nav__navigation-border {
+    height: 1px;
+    width: 1157px;
+    background: white;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: -2;
+
+}
+
+.main__banner {
+    width: 100%;
+}
+
+
+
+
+.main__context-h {
+    font-size: 35px;
+    font-weight: 300;
+    text-align: start;
+    color: white;
+    margin-top: 80px;
+}
+
+.products {}
+
+.products__content {
+    display: block;
+    text-align: center;
+}
+
+.products__content-head-p {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 20px;
+    margin: 20px;
+}
+
+.products__content-head-h2 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.products__content-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+}
+
+.card-head {
+    padding: 30px;
+}
+
+.button-more {
+    padding: 20px 30px;
+    background: white;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.button-more:hover {
+    border: 3px solid black;
+}
+
+.footer p {
+    padding: 20px;
+
+}
+
+.footer span {
+    font-weight: 800;
+    font-size: large;
+}
