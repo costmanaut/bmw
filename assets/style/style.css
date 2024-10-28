@@ -25,18 +25,20 @@ a {
 }
 
 .header {
+    height: 1100px;
+    display: block;
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 4, 1) 100%);
-    background-size: 1300%;
-    display: block;
-    height: 500px;
-    margin-bottom: 300px;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
 }
+
 
 .nav__content {
     display: flex;
     justify-content: start;
     align-items: center;
+    
 
 }
 
@@ -50,6 +52,23 @@ a {
     align-items: flex-start;
     margin-left: 40px;
 }
+.nav__list-line {
+    height: 5px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    width: 100%;
+    transition: 300ms;
+}
+.nav__list-li {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .nav__list-li:hover .nav__list-line{
+    bottom: 0;    
+  }
 
 .nav__list-link {
     display: block;
@@ -60,10 +79,7 @@ a {
     font-weight: 600;
 }
 
-.nav__list-link:hover {
-    background: blue;
-    transition: .5s;
-}
+
 
 .nav__navigation-border {
     height: 1px;
@@ -77,11 +93,13 @@ a {
     left: 0;
     display: block;
     z-index: -2;
+    width: 100%;
 
 }
 
 .main__banner {
     width: 100%;
+    object-fit: fill;
 }
 
 
@@ -95,7 +113,6 @@ a {
     margin-top: 80px;
 }
 
-.products {}
 
 .products__content {
     display: block;
@@ -133,7 +150,7 @@ a {
 }
 
 .button-more:hover {
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
 .footer p {

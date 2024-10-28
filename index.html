@@ -12,36 +12,42 @@
 <body>
     <header class="header">
 
-        <nav class="nav">
+        <nav class="nav shadow">
             <div class="nav__content container">
                 <a href="#" class="nav__logo">
                     <img src="./assets/images/BMW_White_Logo.svg" alt="LOGO">
                 </a>
 
                 <ul class="nav__list">
-                    <li><a href="#" class="nav__list-link">
+                    <li class="nav__list-li"><a href="#" class="nav__list-link">
                             Автомобили
                         </a>
+                        <div class="nav__list-line"></div>
                     </li>
 
-                    <li><a href="#" class="nav__list-link">
+                    <li class="nav__list-li"><a href="#" class="nav__list-link">
                             Электромобили
                         </a>
+                        <div class="nav__list-line"></div>
                     </li>
 
-                    <li><a href="#" class="nav__list-link">
+                    <li class="nav__list-li"><a href="#" class="nav__list-link">
                             Владельцам
                         </a>
+                        <div class="nav__list-line"></div>
                     </li>
 
-                    <li><a href="#" class="nav__list-link">
+                    <li class="nav__list-li"><a href="#" class="nav__list-link">
                             Покупка онлайн
                         </a>
+                        <div class="nav__list-line"></div>
                     </li>
 
-                    <li><a href="#" class="nav__list-link">
+                    <li class="nav__list-li"><a href="#" class="nav__list-link">
                             Больше о БМВ
                         </a>
+                        <div class="nav__list-line"></div>
+
                     </li>
 
                 </ul>
@@ -49,7 +55,7 @@
             </div>
 
             <div class="nav__navigation-border container"></div>
-            </div>
+
         </nav>
 
 
@@ -61,7 +67,6 @@
             ВСЕ МЕНЯЕТСЯ. ЦЕННОСТИ ОСТАЮТСЯ.
         </h1>
     </header>
-
 
     <div class="products container">
         <div class="products__content">
@@ -77,9 +82,9 @@
             <div class="products__content-cards">
                 <div class="products__content-card">
                     <div class="card-icon">
-                        <!-- iCon by oNlineWebFonts.Com --><img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjU2IDI1NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bWV0YWRhdGE+IFN2ZyBWZWN0b3IgSWNvbnMgOiBodHRwOi8vd3d3Lm9ubGluZXdlYmZvbnRzLmNvbS9pY29uIDwvbWV0YWRhdGE+DQo8Zz48Zz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMjQwLjcsMTE0LjJoLTEzLjhjLTIuNC0xNi44LTktMzIuNy0xOS40LTQ2LjFsOS45LTkuOWMyLjUtMi41LDAuNy02LjYtMS44LTlsLTguOS04LjhjLTIuNS0yLjUtNi41LTQuMi05LTEuOGwtMTAsMTBjLTEzLjUtMTAtMjkuMy0xNi40LTQ2LTE4LjRsMC0xNWMwLTMuNS00LjItNS4yLTcuNi01LjJoLTEyLjVjLTMuNSwwLTcuNiwxLjgtNy42LDUuMnYxNS4zQzk3LjUsMzMuMSw4Mi4yLDM5LjYsNjksNDkuOEw1Ny45LDM4LjZjLTIuNS0yLjUtNi42LTAuNy05LDEuOEw0MCw0OS4yYy0yLjUsMi41LTQuMiw2LjUtMS44LDlsMTEuNCwxMS40Yy05LjcsMTMuMS0xNiwyOC40LTE4LjIsNDQuN0gxNWMtMy41LDAtNSw0LjEtNSw3LjZ2MTIuNWMwLDMuNCwxLjUsNy42LDUsNy42aDE2LjNjMi4zLDE2LjMsOC41LDMxLjYsMTguMyw0NC43bC0xMS40LDExLjRjLTIuNSwyLjUtMC43LDYuNiwxLjgsOWw4LjksOC45YzIuNCwyLjQsNi41LDQuMiw5LDEuOEw2OSwyMDYuNWMxMy4xLDEwLjEsMjguNSwxNi43LDQ0LjgsMTkuMnYxNS4yYzAsMy41LDQuMiw1LjEsNy42LDUuMUgxMzRjMy40LDAsNy42LTEuNiw3LjYtNS4xVjIyNmM4LjMtMS4xLDE2LjQtMy4yLDI0LjMtNi4zYzMuOS0xLjYsNS44LTYsNC4yLTkuOWMtMS42LTMuOS02LTUuOC05LjktNC4yYy05LjksNC0yMC40LDYtMzEuMSw2Yy00NiwwLTgzLjQtMzcuNC04My40LTgzLjRjMC00NiwzNy40LTgzLjUsODMuNC04My41YzQ2LDAsODMuNSwzNy40LDgzLjUsODMuNWMwLDExLjEtMi4yLDIxLjktNi40LDMyLjFjLTEuNiwzLjksMC4yLDguNCw0LjEsMTBjMy45LDEuNiw4LjQtMC4yLDEwLTQuMWMzLjMtNy44LDUuNS0xNS45LDYuNi0yNC4ybDEzLjksMGMzLjUsMCw1LjMtNC4xLDUuMy03LjZ2LTEyLjVDMjQ2LDExOC40LDI0NC4yLDExNC4yLDI0MC43LDExNC4yeiIvPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0yMTUuNSwxOTYuM2wtMTMuNy0xMy44bC0zMy4yLTMzLjFjLTAuMS0wLjEtMC4zLTAuMy0wLjUtMC40YzMuOS02LjksNS45LTE0LjcsNS45LTIyLjdjMC0yNS43LTIwLjktNDcuNC00NS41LTQ3LjRoLTguN2MtNC4yLDAtNy43LDMuNC03LjcsNy43YzAsNC4yLDMuNCw3LjcsNy43LDcuN2g4LjdjMTYuMSwwLDMwLjIsMTUsMzAuMiwzMi4xYzAsMTYuOS0xMy44LDMxLjItMzAuMiwzMS4yYy04LjIsMC0xNi44LTMuNi0yMy41LTkuOGMtNi43LTYuMi0xMC41LTE0LjEtMTAuNS0yMS44YzAtNC4yLTMuNC03LjctNy43LTcuN2MtNC4yLDAtNy43LDMuNC03LjcsNy43YzAsMjQuNiwyMy41LDQ2LjksNDkuMyw0Ni45YzYuOSwwLDEzLjctMS42LDE5LjctNC43YzAuMiwwLjQsMC41LDAuNywwLjcsMWwzMy4xLDMzLjFsMTMuOCwxMy44YzEuMywxLjMsMi43LDIuMiw0LjMsMi45YzUuMiwyLjQsMTEuNCwxLjUsMTUuNi0yLjdjNC4yLTQuMiw1LTEwLjQsMi43LTE1LjZDMjE3LjgsMTk5LDIxNi44LDE5Ny42LDIxNS41LDE5Ni4zeiIvPjwvZz48L2c+DQo8L3N2Zz4="
-                            width="64" height="64">
+                        <!-- iCon by oNlineWebFonts.Com -->
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjU2IDI1NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bWV0YWRhdGE+IFN2ZyBWZWN0b3IgSWNvbnMgOiBodHRwOi8vd3d3Lm9ubGluZXdlYmZvbnRzLmNvbS9pY29uIDwvbWV0YWRhdGE+DQo8Zz48Zz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMjQwLjcsMTE0LjJoLTEzLjhjLTIuNC0xNi44LTktMzIuNy0xOS40LTQ2LjFsOS45LTkuOWMyLjUtMi41LDAuNy02LjYtMS44LTlsLTguOS04LjhjLTIuNS0yLjUtNi41LTQuMi05LTEuOGwtMTAsMTBjLTEzLjUtMTAtMjkuMy0xNi40LTQ2LTE4LjRsMC0xNWMwLTMuNS00LjItNS4yLTcuNi01LjJoLTEyLjVjLTMuNSwwLTcuNiwxLjgtNy42LDUuMnYxNS4zQzk3LjUsMzMuMSw4Mi4yLDM5LjYsNjksNDkuOEw1Ny45LDM4LjZjLTIuNS0yLjUtNi42LTAuNy05LDEuOEw0MCw0OS4yYy0yLjUsMi41LTQuMiw2LjUtMS44LDlsMTEuNCwxMS40Yy05LjcsMTMuMS0xNiwyOC40LTE4LjIsNDQuN0gxNWMtMy41LDAtNSw0LjEtNSw3LjZ2MTIuNWMwLDMuNCwxLjUsNy42LDUsNy42aDE2LjNjMi4zLDE2LjMsOC41LDMxLjYsMTguMyw0NC43bC0xMS40LDExLjRjLTIuNSwyLjUtMC43LDYuNiwxLjgsOWw4LjksOC45YzIuNCwyLjQsNi41LDQuMiw5LDEuOEw2OSwyMDYuNWMxMy4xLDEwLjEsMjguNSwxNi43LDQ0LjgsMTkuMnYxNS4yYzAsMy41LDQuMiw1LjEsNy42LDUuMUgxMzRjMy40LDAsNy42LTEuNiw3LjYtNS4xVjIyNmM4LjMtMS4xLDE2LjQtMy4yLDI0LjMtNi4zYzMuOS0xLjYsNS44LTYsNC4yLTkuOWMtMS42LTMuOS02LTUuOC05LjktNC4yYy05LjksNC0yMC40LDYtMzEuMSw2Yy00NiwwLTgzLjQtMzcuNC04My40LTgzLjRjMC00NiwzNy40LTgzLjUsODMuNC04My41YzQ2LDAsODMuNSwzNy40LDgzLjUsODMuNWMwLDExLjEtMi4yLDIxLjktNi40LDMyLjFjLTEuNiwzLjksMC4yLDguNCw0LjEsMTBjMy45LDEuNiw4LjQtMC4yLDEwLTQuMWMzLjMtNy44LDUuNS0xNS45LDYuNi0yNC4ybDEzLjksMGMzLjUsMCw1LjMtNC4xLDUuMy03LjZ2LTEyLjVDMjQ2LDExOC40LDI0NC4yLDExNC4yLDI0MC43LDExNC4yeiIvPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0yMTUuNSwxOTYuM2wtMTMuNy0xMy44bC0zMy4yLTMzLjFjLTAuMS0wLjEtMC4zLTAuMy0wLjUtMC40YzMuOS02LjksNS45LTE0LjcsNS45LTIyLjdjMC0yNS43LTIwLjktNDcuNC00NS41LTQ3LjRoLTguN2MtNC4yLDAtNy43LDMuNC03LjcsNy43YzAsNC4yLDMuNCw3LjcsNy43LDcuN2g4LjdjMTYuMSwwLDMwLjIsMTUsMzAuMiwzMi4xYzAsMTYuOS0xMy44LDMxLjItMzAuMiwzMS4yYy04LjIsMC0xNi44LTMuNi0yMy41LTkuOGMtNi43LTYuMi0xMC41LTE0LjEtMTAuNS0yMS44YzAtNC4yLTMuNC03LjctNy43LTcuN2MtNC4yLDAtNy43LDMuNC03LjcsNy43YzAsMjQuNiwyMy41LDQ2LjksNDkuMyw0Ni45YzYuOSwwLDEzLjctMS42LDE5LjctNC43YzAuMiwwLjQsMC41LDAuNywwLjcsMWwzMy4xLDMzLjFsMTMuOCwxMy44YzEuMywxLjMsMi43LDIuMiw0LjMsMi45YzUuMiwyLjQsMTEuNCwxLjUsMTUuNi0yLjdjNC4yLTQuMiw1LTEwLjQsMi43LTE1LjZDMjE3LjgsMTk5LDIxNi44LDE5Ny42LDIxNS41LDE5Ni4zeiIvPjwvZz48L2c+DQo8L3N2Zz4="
+                            width="64" height="64" alt="icon">
 
                     </div>
                     <h2 class="card-head">
@@ -94,13 +99,13 @@
                     <div class="card-icon">
                         <!-- iCon by oNlineWebFonts.Com --> <img
                             src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjU2IDI1NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bWV0YWRhdGE+IFN2ZyBWZWN0b3IgSWNvbnMgOiBodHRwOi8vd3d3Lm9ubGluZXdlYmZvbnRzLmNvbS9pY29uIDwvbWV0YWRhdGE+DQo8Zz48Zz48Zz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMTEwLjUsMzBjLTEuMiwwLjEtNSwwLjQtOC41LDAuNmMtOC43LDAuNy0xOC40LDIuMS0yMi4yLDMuM2MtNC4yLDEuMy03LjEsMy4zLTExLjcsOC4yYy03LjQsNy43LTEzLjcsMTcuMi0xOS45LDI5LjdjLTIuNCw0LjctNC4zLDguNi00LjUsOC42Yy0wLjEsMC0xLjQtMi4yLTIuOC00LjljLTEuNC0yLjctMy01LjMtMy43LTUuOGMtMS44LTEuMy04LjEtMi0xMS44LTEuNGMtMy45LDAuNi04LjQsMi44LTEwLjMsNWMtNC4zLDQuOS02LjMsMTQuMi00LjEsMTguOWMxLjgsMy44LDcuOCw3LjQsMTUuOSw5LjVjMi4zLDAuNiw0LjIsMS4xLDQuMiwxLjFjMCwwLTAuOCwyLTIsNC4zYy0yLjIsNC41LTUuMiwxMy02LjQsMTcuOWwtMC42LDIuOWwxOC44LDAuMWMxOC41LDAuMSwxOC44LDAuMiwyMS41LDEuMmM5LjQsMy43LDE1LjUsMTEuNywxNi4zLDIwLjljMC4zLDMuNi0wLjMsNS40LTIuMiw2LjVjLTEuMiwwLjctMy44LDAuOC0yOC45LDAuOEgyMGwwLjMsMy41YzEuMiwxMy44LDQuMiwyNS4xLDguMSwzMWwxLjQsMi4xdjEwLjFjMCw4LjUsMC4xLDEwLjUsMC44LDEyLjRjMS4yLDMuMyw0LjYsNi44LDgsOC4zYzIuOCwxLjIsMi45LDEuMywxMS40LDEuMWM3LjktMC4xLDguOC0wLjIsMTAuNi0xLjJjMy0xLjYsNS41LTQuMSw2LjktNi45YzEuMi0yLjQsMS4zLTMuMSwxLjQtOWMwLjItNi4xLDAuMi02LjMsMS4yLTYuM2MwLjYsMCw1LjgsMC41LDExLjYsMS4yYzMzLjksMy42LDU4LjgsMy42LDkyLjcsMGM1LjktMC42LDExLjEtMS4yLDExLjYtMS4yYzAuOSwwLDEsMC4yLDEuMiw2LjRjMC4xLDUuOCwwLjIsNi41LDEuNCw4LjljMS40LDIuOSwzLjgsNS4zLDYuOSw2LjljMS45LDEsMi41LDEuMSwxMS4yLDEuMWM5LjEsMCw5LjMsMCwxMS41LTEuMmMyLjgtMS41LDUuMy00LDYuNy02LjhjMS4xLTIsMS4xLTIuNiwxLjItMTMuMWwwLjEtMTFsMS4zLTEuOGMzLjgtNS4yLDYuOS0xNy4xLDguMS0zMC45bDAuMy0zLjVoLTI3LjVjLTMwLjIsMC0yOS42LDAtMzAuNy0yLjhjLTAuOC0xLjktMC40LTcuNCwwLjgtMTAuNWMyLjctNyw4LjMtMTIuNCwxNS4zLTE0LjljMi45LTEsMy41LTEuMSwyMS41LTEuMmwxOC41LTAuMWwtMC42LTIuOWMtMS4yLTQuOS00LjItMTMuNS02LjQtMTcuOWMtMS4yLTIuMy0yLTQuMy0yLTQuM2MwLDAsMi0wLjUsNC4yLTEuMWM0LjctMS4yLDEwLjYtMy45LDEzLjItNmMzLjUtMi45LDQuNC03LjEsMi45LTEzLjRjLTIuMS05LTguMi0xMy45LTE3LjMtMTQuMWMtNS4yLDAtOCwwLjUtOS41LDEuOGMtMC43LDAuNi0yLjMsMy4yLTMuNiw1LjhjLTEuMiwyLjUtMi40LDQuNy0yLjUsNC42Yy0wLjEsMC0yLjEtMy45LTQuNS04LjZjLTYuMS0xMi41LTEyLjUtMjItMTkuOS0yOS43Yy02LjMtNi42LTkuNS04LjMtMTkuMi05LjhjLTEwLjctMS43LTE4LjgtMi4yLTM3LjYtMi40QzEyMC45LDI5LjksMTExLjYsMjkuOSwxMTAuNSwzMHogTTE0NC44LDM5LjhjMTcuNiwxLjEsMjguNSwyLjcsMzEuNyw0LjljNy43LDUuMywyMS4xLDI1LjQsMjcsNDAuNWwxLjUsMy43bC0zLjMsMC4zYy0zLjgsMC4zLTI2LjQsMS45LTQyLjUsMi45Yy0xNi41LDEuMS0zNi4yLDEuNC00OC42LDAuN2MtMTEuMS0wLjYtNTAuMi0zLjEtNTYuMS0zLjZMNTEsODlsMS41LTMuN2M1LjktMTUuMSwxOS4zLTM1LjIsMjctNDAuNUM4NS4xLDQwLjksMTE5LjEsMzguMywxNDQuOCwzOS44eiBNMTY0LjYsMTI4LjVjMS40LDAuNiwyLjUsMi41LDIuNSw0LjNjMCwxLjYtNC41LDI4LjUtNS4xLDMwLjhjLTAuMywwLjktMSwyLjEtMS43LDIuNmMtMS4yLDEtMS42LDEtMzIuNSwxSDk2LjVsLTEuMy0xLjNjLTAuNy0wLjctMS40LTEuOC0xLjYtMi40Yy0wLjctMy4zLTQuOS0yOS4zLTQuOS0zMC41YzAtMS44LDAuOS0zLjUsMi40LTQuM0M5Mi43LDEyNy43LDE2Mi44LDEyNy42LDE2NC42LDEyOC41eiIvPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik05OS40LDEzNy45YzAsMC40LDIuNywxNi43LDMsMTguM2wwLjMsMS4zSDEyOGgyNS4zbDAuMy0xLjNjMC4zLTEuNiwzLTE3LjksMy0xOC4zYzAtMC4xLTEyLjktMC4zLTI4LjYtMC4zQzExMi4zLDEzNy42LDk5LjQsMTM3LjcsOTkuNCwxMzcuOXoiLz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMjAuNCwxMzguNGMtMC4xLDAuNS0wLjMsMi43LTAuNCw1bC0wLjEsNC4xbDI0LjEsMC4xYzEzLjIsMCwyNC4xLDAsMjQuMS0wLjFjMC0xLTIuMS00LjEtMy45LTUuN2MtNC4zLTQtNC00LTI1LTQuMUMyMS42LDEzNy41LDIwLjYsMTM3LjYsMjAuNCwxMzguNHoiLz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMTk4LjcsMTM4Yy0yLjYsMC42LTQuNSwxLjYtNi45LDMuOGMtMS43LDEuNi0zLjgsNC43LTMuOCw1LjZjMCwwLjEsMTAuOCwwLjIsMjQuMSwwLjFsMjQuMS0wLjFMMjM2LDE0NGMwLTEuOS0wLjItNC4xLTAuNC01bC0wLjItMS41bC0xNy40LDBDMjA4LjQsMTM3LjcsMTk5LjcsMTM3LjksMTk4LjcsMTM4eiIvPjwvZz48L2c+PC9nPg0KPC9zdmc+"
-                            width="64" height="64">
+                            width="64" height="64" alt="icon">
                     </div>
                     <h2 class="card-head">
                         Автомобили
                     </h2>
-                    <a class="button-more" href="#">
-                        Найти Сейчас
+                    <a class="button-more" href="autoCatalog.html">
+                        Найти Сейчас`
                     </a>
                 </div>
 
@@ -109,7 +114,7 @@
                     <div class="card-icon">
                         <!-- iCon by oNlineWebFonts.Com --> <img
                             src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjU2IDI1NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bWV0YWRhdGE+IFN2ZyBWZWN0b3IgSWNvbnMgOiBodHRwOi8vd3d3Lm9ubGluZXdlYmZvbnRzLmNvbS9pY29uIDwvbWV0YWRhdGE+DQo8Zz48Zz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMTY2LjQsOTMuNWM4LDIuNywyMS40LTExLjYsMjkuNC0yMWM4LTkuMyw3LjctMTQuNyw1LjQtMTguMmMtMi4zLTMuNS0zLjUsMC0zLjUsMHMyLjktMTYuMS00LjctMjUuOWMtMTIuNS0xNi40LTM4LjctMTUuOC00OC41LTAuNmMtOS44LDE1LjMtNC44LDI2LjMtNC44LDI2LjNzLTMuOC02LjMtNS43LDBjLTEuOCw2LjMsMS4yLDguNyw4LDE2LjdDMTQ4LjQsNzguNiwxNTguNSw5MC42LDE2Ni40LDkzLjV6Ii8+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTU3LjYsMTkyLjFjLTcuMi02LjQtMTMuOC0xMi4zLTE1LjMtMTMuNmMtNC43LTQuMy0xMC40LTMuNC0xMy44LTAuNmMtMi42LDItMTIuNCw5LjctMTUuMSwxMS41Yy0yLjUsMS43LTMuMiw0LTMuNCw1LjRjLTAuMyw0LjEsMi45LDgsNC45LDkuOGMwLjgsMC42LDMuMiwzLjEsNi43LDYuM2M5LDguNCwyNCwyMi4zLDI2LjgsMjUuMWMyLjcsMi43LDUuNywzLjgsOC4zLDMuOGMyLjYsMCw1LjEtMS4xLDYuOS0yLjZsMS40LTEuMmMzLjQtMi45LDktNy43LDEyLjktMTAuM2MzLjctMi41LDQuNC01LjIsNC42LTdjMC4xLTEuOC0wLjMtNC40LTMuNC03LjJDNzcuNywyMDkuOCw2Ny4xLDIwMC41LDU3LjYsMTkyLjF6IE03NC42LDIyMC43Yy00LDIuNy05LjgsNy43LTEzLjMsMTAuN2wtMS40LDEuMmMtMi4xLDEuOC00LjYsMS41LTctMC44QzUwLDIyOSwzNSwyMTUuMSwyNiwyMDYuNmMtMy40LTMuMi02LTUuNS02LjYtNi4xYy0yLjEtMi0zLjEtNC0zLjEtNC45YzAtMC4xLDAtMC41LDAuNi0wLjljMy4xLTIuMSwxMy4zLTEwLjEsMTUuNS0xMS44YzAuNS0wLjMsMS40LTAuOSwyLjctMC45YzAuOSwwLDIsMC4zLDMuMiwxLjRsMCwwYzEuNSwxLjQsOC4xLDcuMiwxNS4zLDEzLjZjOS4zLDguMywxOS45LDE3LjYsMjEuNywxOS4zYzAuOSwwLjgsMS40LDEuNywxLjQsMi4zQzc2LjYsMjE5LDc1LjksMjE5LjgsNzQuNiwyMjAuN3oiLz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMjQ1LjQsMTUzLjJjLTUuMi03LjgtMTYuOC01LjctMjMuNi0xLjdjLTIuNiwxLjUtNi43LDQuNi0xMS41LDguM2MtOC43LDYuNi0yMS45LDE2LjQtMjYuOCwxN2MtNi4zLDAuOC0yMy42LDAtNDYuMS0yLjFjLTctMC42LTguNy0yLjEtOS4yLTIuNWMwLjEtMC41LDEuMS0xLjIsMS41LTEuNGMxLjUtMC4zLDEyLjMtMS4xLDIxLjYtMS43YzEwLjYtMC44LDIxLjQtMS41LDI3LjEtMi4xYzYuOS0wLjgsOS44LTQuOSw5LjctOC43Yy0wLjEtMi41LTEuNC00LjktNC4xLTYuN2MyMC4xLTEuNCwzNi45LTUuMiwzNy43LTEyLjRjMS44LTE3LjYtMjkuNS01MC40LTMzLjItNDIuMWwtMTEuOSwyNy40bC00LjEtMTIuMWMwLDAsMC4zLTIuMywyLjMtNi40YzItNC4xLDIuMy02LjEtMS41LTguNmMtMy44LTIuNi05LTAuOS0xMC42LDMuMnMyLjksNi40LDIuOSw4LjljMCwyLjYtMy4yLDE0LjQtMy4yLDE0LjRzMC4zLDMuMi0zLjgtNS43Yy00LjMtOS04LjktMjIuMi04LjktMjIuMmMtMjIuOCw4LjEtMzQuMywyNC0zNC4zLDQ4LjFjMCwwLjgsMC42LDEuNCwxLjcsMmMtMi43LTAuMS01LjQtMC4xLTgtMC4xYy0zLjUtMjUuNywxMC42LTQwLDI5LjEtNTMuOWwtMS44LTI0LjVjLTAuMS0yLjctMi4zLTQuOS00LjktNC45aC00MGMtMi43LDAtNS4xLDIuMy01LjEsNC45djc5LjVjLTE3LjksNC42LTM5LjMsMjQtNDAuNCwyNC45bC0xLjQsMS4ybDEuNyw2LjRsMzkuOCwzNS40bDctMC42bDAuNi0wLjNjMC4xLDAsOS01LjIsMTYuMi02LjZjMy4yLTAuNiwxNC41LDAsMjUuNiwwLjZjMTQuNywwLjgsMzEuNCwxLjcsMzkuOCwwLjVjMTAuMy0xLjUsMzEuNC0xNS41LDYyLjYtNDEuNWwwLjUtMC4zQzI0MS4yLDE2NC41LDI0OC4xLDE1Ny4zLDI0NS40LDE1My4yeiBNOTkuOSw3OC41aDIzLjl2NC45SDk5LjlWNzguNXogTTk5LjksODdoMjMuOXY0LjlIOTkuOVY4N3ogTTIzNC42LDE2Mi4xbC0wLjUsMC4zYy0zOS44LDMzLjItNTQuNCwzOS4zLTU5LjYsNDAuMWMtNy44LDEuMS0yNC4yLDAuMy0zOC42LTAuNWMtMTQuNC0wLjgtMjMuNC0xLjItMjcuMy0wLjVjLTcsMS41LTE1LjEsNS43LTE3LjUsN2wtMy4xLDAuM2wtMzYuNC0zMi41bC0wLjMtMS4xYzUuNS00LjcsMjYuNS0yMi4yLDQwLjktMjMuMWMxMy4zLTAuOSw0Ny4yLDAuOSw2Ny4yLDJjNi45LDAuMywxMi40LDAuNiwxNS4zLDAuOGM0LjYsMC4xLDYuNywyLjEsNi45LDMuNGMwLDAuOS0xLjQsMi4xLTQuMywyLjVjLTUuNSwwLjYtMTYuOCwxLjQtMjYuOCwyLjFjLTE1LDEuMS0yMS4zLDEuNS0yMi44LDJjLTIuNiwwLjgtNi4zLDQtNiw3LjhjMC42LDYuNiwxMS4yLDcuNywxNC43LDhjMTEsMS4xLDM3LjgsMy40LDQ3LjUsMi4xYzYtMC44LDE2LjUtOC40LDI5LjctMTguMmM0LjYtMy41LDguNy02LjQsMTEtOGwwLDBjMy43LTIuMywxMS41LTQuMywxNC43LTAuOUMyMzkuMSwxNTcuMiwyMzcuMywxNTkuOCwyMzQuNiwxNjIuMXoiLz48L2c+PC9nPg0KPC9zdmc+"
-                            width="64" height="64">
+                            width="64" height="64" alt="icon">
                     </div>
                     <h2 class="card-head">
                         Дилер BMW
@@ -123,15 +128,13 @@
             </div>
 
         </div>
+    </div>
 
-
-
-
-        <div class="footer container">
-            <p>
-                Копия от сайта <a href="https://www.bmw.ru/ru/index.html#main"> <span>BMW</span> </a>
-            </p>
-        </div>
+    <div class="footer container">
+        <p>
+            Копия от сайта <a href="https://www.bmw.ru/ru/index.html#main"> <span>BMW</span> </a>
+        </p>
+    </div>
 </body>
 
 </html>
