@@ -112,7 +112,9 @@ a {
     color: white;
     margin-top: 80px;
 }
-
+.products {
+    position: relative;
+}
 
 .products__content {
     display: block;
@@ -150,7 +152,9 @@ a {
 }
 
 .button-more:hover {
-    border: 2px solid black;
+    background: blue;
+    transition: .5s;
+    color: white;
 }
 
 .footer p {
