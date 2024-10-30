@@ -1,31 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: BMWTypeNext Pro Regular, Arial, Helvetica, Roboto, sans-serif;
-}
-
-
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.container {
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-    max-width: 1140px;
-
-}
-
 .header {
-    height: 800px;
+    height: 1200px;
     display: block;
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 4, 1) 100%);
@@ -38,7 +12,7 @@ a {
     display: flex;
     justify-content: start;
     align-items: center;
-    
+
 
 }
 
@@ -52,6 +26,7 @@ a {
     align-items: flex-start;
     margin-left: 40px;
 }
+
 .nav__list-line {
     height: 5px;
     background: blue;
@@ -61,14 +36,16 @@ a {
     width: 100%;
     transition: 300ms;
 }
+
 .nav__list-li {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-  }
-  .nav__list-li:hover .nav__list-line{
-    bottom: 0;    
-  }
+}
+
+.nav__list-li:hover .nav__list-line {
+    bottom: 0;
+}
 
 .nav__list-link {
     display: block;
@@ -150,7 +127,9 @@ a {
 }
 
 .button-more:hover {
-    border: 2px solid black;
+    background: blue;
+    color: white;
+    transition: .5s;
 }
 
 .footer p {
