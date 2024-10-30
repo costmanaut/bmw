@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BMWTypeNext Pro Regular, Arial, Helvetica, Roboto, sans-serif;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1140px;
+
+}
